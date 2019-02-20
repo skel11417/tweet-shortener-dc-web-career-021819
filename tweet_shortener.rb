@@ -1,9 +1,13 @@
 # Write your code here.
+<<<<<<< HEAD
 
 
 
 def word_substituter(tweet)
   dic = {
+=======
+dic = {
+>>>>>>> 28236328e56d1aafcfdd5520dcb00c437964e689
   "hello" => 'hi',
   "to" => '2',
   "two" => '2',
@@ -14,6 +18,7 @@ def word_substituter(tweet)
   "you" => 'u',
   "at" => '@',
   "and" => "&"
+<<<<<<< HEAD
   }
   short_tweet = ""
   tweet_arr = tweet.split /([ ?!.])/
@@ -47,4 +52,13 @@ def shortened_tweet_truncator(tweet)
     output = short_tweet
   end
   output
+=======
+}
+
+
+def word_substituter(tweet)
+  short_tweet = ""
+  tweet_array = tweet.split(r%)
+  
+>>>>>>> 28236328e56d1aafcfdd5520dcb00c437964e689
 end
